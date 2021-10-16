@@ -16,9 +16,9 @@ Open home.html
 
 ## Sources and references for this project
 
-https://codepen.io/cathydutton/pen/ldazc
-https://gist.github.com/Dashon-Hawkins/27edf2a7a919d612380a3fc2320eeb53
-https://nostarch.com/download/JS4K_ch7.pdf
-https://www.youtube.com/watch?v=SvPtEr9tblU
-https://www.youtube.com/watch?v=dgvyE1sJS3Y
-https://www.w3schools.com/howto/howto_css_modals.asp
+- https://codepen.io/cathydutton/pen/ldazc
+- https://gist.github.com/Dashon-Hawkins/27edf2a7a919d612380a3fc2320eeb53
+- https://nostarch.com/download/JS4K_ch7.pdf
+- https://www.youtube.com/watch?v=SvPtEr9tblU
+- https://www.youtube.com/watch?v=dgvyE1sJS3Y
+- https://www.w3schools.com/howto/howto_css_modals.asp
