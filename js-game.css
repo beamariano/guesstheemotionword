@@ -3,11 +3,11 @@ html {
   background-color: white;
   color: black;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 *,
-div>* {
+div > * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -22,7 +22,7 @@ div>* {
 }
 
 main {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   background-color: white;
   padding: 2%;
   align-content: center;
@@ -32,7 +32,7 @@ main {
   width: 700px;
   background-color: cadetblue;
   border: 1px solid gainsboro;
-  margin: auto;
+  margin: 100px auto;
   z-index: -1;
   padding: 3%;
 }
@@ -40,7 +40,7 @@ main {
 #alphabetDisplay {
   background-color: lightgoldenrodyellow;
   border: 1px solid gainsboro;
-  margin: auto;
+  margin: 15px auto;
   display: flex;
   align-self: flex-end;
   flex-wrap: wrap;
@@ -115,11 +115,17 @@ h1 {
 #allowedMistakesContainer {
   border: 1px solid white;
   height: 50px;
+  width: 120px;
   margin: 5px;
   padding: 2%;
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+#userScoreContainer > span,
+#mistakesContainer {
+  margin-left: 5px;
 }
 
 .scores-container {
@@ -144,7 +150,7 @@ div {
 
 .disabled-letters {
   background-color: lightGrey;
-  border: 0.5px solid grey
+  border: 0.5px solid grey;
 }
 
 #game-mechanics,
@@ -158,6 +164,9 @@ div {
   margin: 5px;
   cursor: pointer;
 }
+#reset {
+  width: 120px;
+}
 
 .top-buttons-container {
   display: flex;
@@ -166,11 +175,9 @@ div {
   border: 2px solid lightgoldenrodyellow;
   background-color: coral;
   width: 100%;
-
 }
 
 /**/
-
 
 /* The Modal (background) */
 .modal {
@@ -204,11 +211,11 @@ div {
   width: 30%;
 }
 
-.modal-content>* {
+.modal-content > * {
   margin-top: 10px;
 }
 
-.modal-content>h2 {
+.modal-content > h2 {
   margin-bottom: 20px;
 }
 
