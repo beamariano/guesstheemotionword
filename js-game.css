@@ -32,7 +32,7 @@ main {
   width: 700px;
   background-color: cadetblue;
   border: 1px solid gainsboro;
-  margin: 100px auto;
+  margin: 60px auto;
   z-index: -1;
   padding: 3%;
 }
